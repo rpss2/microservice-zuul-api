@@ -1,0 +1,34 @@
+{
+    "orders": [
+        {
+            "id": 1,
+            "consumer": "Ramom Pereira",
+            "value": 159.9,
+            "products": [
+                {
+                    "sku": "BEdx",
+                    "qty": 1
+                },
+                {
+                    "sku": "VEdx",
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "consumer": "Arthur Frade",
+            "value": 211.7,
+            "products": [
+                {
+                    "sku": "BEdx",
+                    "qty": 1
+                },
+                {
+                    "sku": "CEdx",
+                    "qty": 2
+                }
+            ]
+        }
+    ]
+}
