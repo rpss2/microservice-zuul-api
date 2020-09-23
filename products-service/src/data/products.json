@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "sku": "BEdx",
+            "title": "Blusa",
+            "price": 59.9
+        },
+        {
+            "sku": "CEdx",
+            "title": "Calça",
+            "price": 75.9
+        },
+        {
+            "sku": "VEdx",
+            "title": "Vestido",
+            "price": 100.0
+        }
+    ]
+}
