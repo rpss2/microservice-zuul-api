@@ -3,6 +3,6 @@ const routes = express()
 
 const products = require('./products')
 
-routes.use('/products', products)
+routes.use('/', products)
 
 module.exports = routes

@@ -39,7 +39,7 @@ router.get('/:id/products', async function(req, res) {
 
     let products = order.products.map(p => {
         return new Promise((resolve, rejecct) => {
-            axios.get(`http://products-service:5000/products/${p.sku}`).then(prod => {
+            axios.get(`http://products-service:5000/${p.sku}`).then(prod => {
                 resolve(prod)
             })
             .catch(err => {
